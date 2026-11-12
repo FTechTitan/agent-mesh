@@ -1,0 +1,10 @@
+{
+  "name": "agent-mesh",
+  "version": "1.0.0",
+  "description": "Tiny message bus + MCP server so AI coding agents can ask each other for work and review it.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": { "test": "node --test test/*.test.mjs", "broker": "node src/broker-server.mjs", "demo": "node demo/three-agents.mjs" },
+  "engines": { "node": ">=20" }
+}
